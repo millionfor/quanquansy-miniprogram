@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/list/main",
+    "pages/details/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "圈圈摄影",
+    "navigationBarTextStyle": "black"
+  }
+}

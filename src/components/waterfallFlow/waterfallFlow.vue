@@ -46,8 +46,8 @@
     beforeCreate() {
     },
     created() {
-      this.list.map(v => {
-        if (parseInt(v.id)%2 === 0) {
+      this.list.map((v,i) => {
+        if (parseInt(i)%2 === 0) {
           this.leftList.push(v)
         }else{
           this.rightList.push(v)
@@ -92,7 +92,7 @@
         position: absolute;
         background: rgba(0,0,0,.5);
         bottom:6px;
-        left: 10px;
+        left: 5px;
         .name {
           font-size: 14px;
           color: #ad986d;

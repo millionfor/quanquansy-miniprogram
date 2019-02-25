@@ -123,8 +123,6 @@ export default {
   onHide() {
     this.isNav = false
     this.isAuthor = false
-    this.hotList = []
-    this.hotBanner = []
   },
   onUnload(){
     this.isNav = false

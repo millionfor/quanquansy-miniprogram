@@ -1,6 +1,4 @@
-/**
- * Created by zhengyi.fu on 2018/8/31.
- */
+
 import Fly from 'flyio/dist/npm/wx'
 const fly = new Fly()
 const host = "https://api.quanquansy.com"
